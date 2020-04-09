@@ -1,0 +1,19 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+    "tslint-react"
+  ],
+  "jsRules": {
+    "object-literal-shorthand": true,
+    "trailing-comma": [
+      true,
+      {
+        "multiline": "ignore",
+        "singleline": "never"
+      }
+    ]
+  },
+  "rules": {},
+  "rulesDirectory": []
+}
