@@ -4,7 +4,8 @@
     "tslint:recommended",
     "tslint-react"
   ],
-  "jsRules": {
+  "jsRules": {},
+  "rules": {
     "object-literal-shorthand": true,
     "trailing-comma": [
       true,
@@ -12,8 +13,9 @@
         "multiline": "ignore",
         "singleline": "never"
       }
-    ]
+    ],
+    "jsx-boolean-value": false,
+    "quotemark": [true, "single", "jsx-double"]
   },
-  "rules": {},
   "rulesDirectory": []
 }

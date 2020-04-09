@@ -36,7 +36,9 @@ module.exports = {
       test: /\.tsx?$/,
       exclude: /node_modules/,
       use: ['babel-loader', 'tslint-loader'],
-    },
-    ],
+    }, {
+      test: /\.css$/i,
+      use: ['style-loader', 'css-loader'],
+    }],
   },
 };
