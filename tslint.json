@@ -15,6 +15,7 @@
       }
     ],
     "jsx-boolean-value": false,
+    "jsx-no-multiline-js": false,
     "quotemark": [true, "single", "jsx-double"]
   },
   "rulesDirectory": []
